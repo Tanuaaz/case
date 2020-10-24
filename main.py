@@ -78,5 +78,4 @@ def triangle (x, y, a, c, d):
     turtle.end_fill()
     turtle.right(d)
 
-
 print('a')
