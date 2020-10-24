@@ -138,8 +138,34 @@ def main():
     triangle(217, -200, 49, '#6ab8e3', 90)
     triangle(216, -149, 32, '#ff00ff', 135)
 
-    turtle.done()
+    #middle left figure
+    square(-250, 80, 35, '#ff9900', 0)
+    triangle(-221, 52, 70, '#dc143c', 180)
+    parallelogram(-295, 52, 37, 49, '#9acd32', 315)
+    triangle(-337, -69, 70, '#fefe22', 0)
+    triangle(-330, -57, 35, '#de71e2', 180)
+    triangle(-263, -110, 42, '#6ab8e3', 45)
+    triangle(-266, -91, 31, '#8b00ff', 225)
 
+    #middle central figure
+    triangle(-90,60, 100, '#dc143c', 315)
+    triangle(-93, -84, 100, '#fefe22', 45)
+    triangle(54, 58, 48, '#8b00ff', 225)
+    square(18, -45, 47, '#ff9900', 90)
+    triangle(-16, -84, 70, '#6ab8e3', 0)
+    parallelogram(-87, -84, 51, 66, '#9acd32', 180)
+    triangle(14, -45, 44.5, '#de71e2', 135)
+
+    #middle right figure
+    square(300, 85, 35, '#ff9900', 0)
+    triangle(273, -13, 70, '#dc143c', 90)
+    triangle(347, 57, 70, '#fefe22', 180)
+    triangle(277, -18, 40, '#6ab8e3', 270)
+    parallelogram(240, -84, 33, 46, '#9acd32', 135)
+    triangle(225, -104, 33, '#de71e2', 0)
+    triangle(337, -97, 35, '#8b00ff', 90)
+
+    turtle.done()
 
 turtle.hideturtle()
 if __name__ == '__main__':
